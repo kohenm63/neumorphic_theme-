@@ -1,0 +1,103 @@
+/* General Neomorphic Style */
+body, #content {
+    background-color: #e0e0e0 !important;
+    color: #333 !important;
+}
+
+
+/* Header Customization */
+#masthead-container {
+    background-color: #e0e0e0 !important;
+    box-shadow: inset 8px 8px 16px #c8c8c8, inset -8px -8px 16px #ffffff !important;
+}
+
+#logo-icon-container {
+    fill: #ffcc00 !important;
+}
+
+#search-input {
+    background-color: #e0e0e0 !important;
+    box-shadow: inset 4px 4px 8px #c8c8c8, inset -4px -4px 8px #ffffff !important;
+    color: #333 !important;
+}
+
+#search-icon-legacy {
+    fill: #ffcc00 !important;
+}
+
+/* Video Thumbnails */
+#thumbnail {
+    border-radius: 15px !important;
+    box-shadow: 8px 8px 16px #c8c8c8, -8px -8px 16px #ffffff !important;
+}
+
+#thumbnail:hover {
+    transform: scale(1.05) !important;
+    transition: transform 0.3s ease !important;
+}
+
+/* Video Titles */
+#video-title {
+    color: grey !important;
+    font-weight: bold !important;
+}
+
+/* Sidebar Customization */
+#guide-inner-content {
+    background-color: #e0e0e0 !important;
+    box-shadow: inset 8px 8px 16px #c8c8c8, inset -8px -8px 16px #ffffff !important;
+    border-right: none !important;
+}
+
+#guide-button {
+    fill: #ffcc00 !important;
+}
+
+/* Footer Customization */
+#footer-container {
+    background-color: #e0e0e0 !important;
+    box-shadow: inset 8px 8px 16px #c8c8c8, inset -8px -8px 16px #ffffff !important;
+    color: #333 !important;
+}
+
+/* Comments Section */
+#comments {
+    background-color: #e0e0e0 !important;
+    border-radius: 15px !important;
+    padding: 10px !important;
+    box-shadow: 8px 8px 16px #c8c8c8, -8px -8px 16px #ffffff !important;
+}
+
+#contenteditable-root {
+    background-color: #e0e0e0 !important;
+    box-shadow: inset 4px 4px 8px #c8c8c8, inset -4px -4px 8px #ffffff !important;
+    color: #333 !important;
+}
+
+/* Buttons */
+#button, .ytp-button {
+    background-color: #e0e0e0 !important;
+    box-shadow: 8px 8px 16px #c8c8c8, -8px -8px 16px #ffffff !important;
+    color: #333 !important;
+    border-radius: 15px !important;
+}
+
+#button:hover, .ytp-button:hover {
+    background-color: #d4d4d4 !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    box-shadow: inset 8px 8px 16px #c8c8c8, inset -8px -8px 16px #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c8c8c8;
+    border-radius: 6px;
+    border: 3px solid #e0e0e0;
+}
